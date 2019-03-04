@@ -1,0 +1,9 @@
+.col {
+    border: 1px solid black;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    background-color: lightblue;
+}
