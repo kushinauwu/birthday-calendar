@@ -8,8 +8,9 @@
 
 <body>
 
-    <h1>Calendar</h1>
+
     <div class="container">
+        <h1>Calendar</h1>
         <div id="carousel-calendar" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item" id="jan">
@@ -229,14 +230,14 @@
                     <ul class="list-unstyled calendar align-items-center">
                         <li>1</li>
                         <li>2</li>
-                        <li class="birthday">3</li>
+                        <li class="birthday" id="neji" onclick="birthday_click(this.id)">3</li>
                         <li>4</li>
                         <li>5</li>
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
                         <li>9</li>
-                        <li>10</li>
+                        <li class="birthday" id="kushina" onclick="birthday_click(this.id)">10</li>
                         <li>11</li>
                         <li>12</li>
                         <li>13</li>
@@ -260,9 +261,13 @@
                         <l>31</l>
                     </ul>
                     <div class="row">
-                        <div class="col birthday-icon" id="neji">
-                            <img src="img/neji.png">
+                        <div class="col birthday-icon" id="nej">
+                            <img src="img/neji.png" id="neji-birthday">
                             <p class="name">Neji</p>
+                        </div>
+                        <div class="col birthday-icon" id="kushi">
+                            <img src="img/kushina.png" id="kushina-birthday">
+                            <p class="name">Kushina</p>
                         </div>
                     </div>
                 </div>
@@ -455,12 +460,11 @@
             </a>
         </div>
     </div>
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="calendar.js">
+    </script>
 </body>
 
 </html>
