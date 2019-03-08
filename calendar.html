@@ -230,14 +230,14 @@
                     <ul class="list-unstyled calendar align-items-center">
                         <li>1</li>
                         <li>2</li>
-                        <li class="birthday" id="neji" onclick="birthday_click(this.id)">3</li>
+                        <li class="birthday" id="neji" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">3</li>
                         <li>4</li>
                         <li>5</li>
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
                         <li>9</li>
-                        <li class="birthday" id="kushina" onclick="birthday_click(this.id)">10</li>
+                        <li class="birthday" id="kushina" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">10</li>
                         <li>11</li>
                         <li>12</li>
                         <li>13</li>
@@ -260,17 +260,17 @@
                         <li>30</li>
                         <l>31</l>
                     </ul>
-                    <div class="row">
-                        <div class="col birthday-icon" id="nej">
-                            <img src="img/neji.png" id="neji-birthday">
-                            <p class="name">Neji</p>
-                        </div>
-                        <div class="col birthday-icon" id="kushi">
-                            <img src="img/kushina.png" id="kushina-birthday">
-                            <p class="name">Kushina</p>
-                        </div>
+
+                    <div class="birthday-icon" id="neji-birthday">
+                        <img src="img/neji.png">
+                        <p class="name">Neji</p>
+                    </div>
+                    <div class="birthday-icon" id="kushina-birthday">
+                        <img src="img/kushina.png">
+                        <p class="name">Kushina</p>
                     </div>
                 </div>
+
                 <div class="carousel-item" id="aug">
                     <h2>August</h2>
                     <ul class="list-unstyled calendar align-items-center">
