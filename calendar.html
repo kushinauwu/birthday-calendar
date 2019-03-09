@@ -11,12 +11,12 @@
 
     <div class="container">
         <h1>Calendar</h1>
-        <div id="carousel-calendar" class="carousel slide" data-ride="carousel">
+        <div id="carousel-calendar" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
-                <div class="carousel-item" id="jan">
+                <div class="carousel-item active" id="jan">
                     <h2>January</h2>
                     <ul class="list-unstyled calendar align-items-center">
-                        <li>1</li>
+                        <li class="birthday" id="guy" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">1</li>
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
@@ -24,7 +24,7 @@
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
-                        <li>9</li>
+                        <li class="birthday" id="haku" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">9</li>
                         <li>10</li>
                         <li>11</li>
                         <li>12</li>
@@ -34,13 +34,13 @@
                         <li>16</li>
                         <li>17</li>
                         <li>18</li>
-                        <li>19</li>
+                        <li class="birthday" id="gaara" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">19</li>
                         <li>20</li>
                         <li>21</li>
                         <li>22</li>
-                        <li>23</li>
+                        <li class="birthday" id="shino" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">23</li>
                         <li>24</li>
-                        <li>25</li>
+                        <li class="birthday" id="minato" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">25</li>
                         <li>26</li>
                         <li>27</li>
                         <li>28</li>
@@ -48,6 +48,26 @@
                         <li>30</li>
                         <l>31</l>
                     </ul>
+                    <div class="birthday-icon" id="guy-birthday">
+                        <img src="img/guy.png">
+                        <p class="name">Might Guy</p>
+                    </div>
+                    <div class="birthday-icon" id="haku-birthday">
+                        <img src="img/haku.jpg">
+                        <p class="name">Haku</p>
+                    </div>
+                    <div class="birthday-icon" id="gaara-birthday">
+                        <img src="img/gaara.jpg">
+                        <p class="name">Gaara</p>
+                    </div>
+                    <div class="birthday-icon" id="shino-birthday">
+                        <img src="img/shino.png">
+                        <p class="name">Shino Aburame</p>
+                    </div>
+                    <div class="birthday-icon" id="minato-birthday">
+                        <img src="img/minato.png">
+                        <p class="name">Minato Namikaze</p>
+                    </div>
                 </div>
                 <div class="carousel-item" id="feb">
                     <h2>February</h2>
@@ -225,7 +245,7 @@
                         <li>30</li>
                     </ul>
                 </div>
-                <div class="carousel-item active" id="jul">
+                <div class="carousel-item" id="jul">
                     <h2>July</h2>
                     <ul class="list-unstyled calendar align-items-center">
                         <li>1</li>
@@ -260,14 +280,13 @@
                         <li>30</li>
                         <l>31</l>
                     </ul>
-
                     <div class="birthday-icon" id="neji-birthday">
-                        <img src="img/neji.png">
-                        <p class="name">Neji</p>
+                        <img src="img/neji.jpg">
+                        <p class="name">Neji Hyuuga</p>
                     </div>
                     <div class="birthday-icon" id="kushina-birthday">
                         <img src="img/kushina.png">
-                        <p class="name">Kushina</p>
+                        <p class="name">Kushina Uzumaki</p>
                     </div>
                 </div>
 

@@ -10,7 +10,7 @@ function birthday_active(clicked_id) {
     */
 
     document.getElementById(birthdayPerson).style.filter = "blur(0px)";
-    console.log("unblurred");
+    console.log("clear");
 
 }
 
