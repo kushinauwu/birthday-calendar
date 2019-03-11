@@ -64,7 +64,7 @@
                         <img src="img/shino.png">
                         <p class="name">Shino Aburame</p>
                     </div>
-                    <div class="birthday-icon" id="minato-birthday">
+                    <div class="birthday-icon" id="minato-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
                         <img src="img/minato.png">
                         <p class="name">Minato Namikaze</p>
                     </div>
@@ -81,7 +81,7 @@
                         <li>7</li>
                         <li>8</li>
                         <li>9</li>
-                        <li>10</li>
+                        <li class="birthday" id="obito" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">10</li>
                         <li>11</li>
                         <li>12</li>
                         <li>13</li>
@@ -89,9 +89,9 @@
                         <li>15</li>
                         <li>16</li>
                         <li>17</li>
-                        <li>18</li>
-                        <li>19</li>
-                        <li>20</li>
+                        <li class="birthday" id="suigetsu" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">18</li>
+                        <li class="birthday" id="tobirama" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">19</li>
+                        <li class="birthday" id="konan" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">20</li>
                         <li>21</li>
                         <li>22</li>
                         <li>23</li>
@@ -102,6 +102,22 @@
                         <li>28</li>
                         <li>29</li>
                     </ul>
+                    <div class="birthday-icon" id="obito-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/obito.png">
+                        <p class="name">Obito Uchiha</p>
+                    </div>
+                    <div class="birthday-icon" id="suigetsu-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/suigetsu.jpg">
+                        <p class="name">Suigetsu Hozuki</p>
+                    </div>
+                    <div class="birthday-icon" id="tobirama-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/tobirama.jpg">
+                        <p class="name">Tobirama Senju</p>
+                    </div>
+                    <div class="birthday-icon" id="konan-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/konan.jpg">
+                        <p class="name">Konan</p>
+                    </div>
                 </div>
                 <div class="carousel-item" id="mar">
                     <h2>March</h2>
@@ -114,7 +130,7 @@
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
-                        <li>9</li>
+                        <li class="birthday" id="tenten" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">9</li>
                         <li>10</li>
                         <li>11</li>
                         <li>12</li>
@@ -123,7 +139,7 @@
                         <li>15</li>
                         <li>16</li>
                         <li>17</li>
-                        <li>18</li>
+                        <li class="birthday" id="kisame" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">18</li>
                         <li>19</li>
                         <li>20</li>
                         <li>21</li>
@@ -133,18 +149,30 @@
                         <li>25</li>
                         <li>26</li>
                         <li>27</li>
-                        <li>28</li>
+                        <li class="birthday" id="sakura" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">28</li>
                         <li>29</li>
                         <li>30</li>
                         <l>31</l>
                     </ul>
+                    <div class="birthday-icon" id="tenten-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/tenten.jpg">
+                        <p class="name">Tenten</p>
+                    </div>
+                    <div class="birthday-icon" id="kisame-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/kisame.jpg">
+                        <p class="name">Kisame Hoshigaki</p>
+                    </div>
+                    <div class="birthday-icon" id="sakura-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/sakura.jpg">
+                        <p class="name">Sakura Haruno</p>
+                    </div>
                 </div>
                 <div class="carousel-item" id="apr">
                     <h2>April</h2>
                     <ul class="list-unstyled calendar align-items-center">
                         <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
+                        <li class="birthday" id="hidan" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">2</li>
+                        <li class="birthday" id="cee" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">3</li>
                         <li>4</li>
                         <li>5</li>
                         <li>6</li>
@@ -173,15 +201,23 @@
                         <li>29</li>
                         <li>30</li>
                     </ul>
+                    <div class="birthday-icon" id="hidan-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/hidan.jpg">
+                        <p class="name">Hidan</p>
+                    </div>
+                    <div class="birthday-icon" id="cee-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/cee.jpg">
+                        <p class="name">Cee</p>
+                    </div>
                 </div>
                 <div class="carousel-item" id="may">
                     <h2>May</h2>
                     <ul class="list-unstyled calendar align-items-center">
-                        <li>1</li>
+                        <li class="birthday" id="choji" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">1</li>
                         <li>2</li>
-                        <li>3</li>
+                        <li class="birthday" id="mito" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">3</li>
                         <li>4</li>
-                        <li>5</li>
+                        <li class="birthday" id="deidara" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">5</li>
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
@@ -191,7 +227,7 @@
                         <li>12</li>
                         <li>13</li>
                         <li>14</li>
-                        <li>15</li>
+                        <li class="birthday" id="killerbee" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">15</li>
                         <li>16</li>
                         <li>17</li>
                         <li>18</li>
@@ -202,18 +238,39 @@
                         <li>23</li>
                         <li>24</li>
                         <li>25</li>
-                        <li>26</li>
+                        <li class="birthday" id="iruka" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">26</li>
                         <li>27</li>
                         <li>28</li>
                         <li>29</li>
                         <li>30</li>
-                        <l>31</l>
+                        <li>31</li>
                     </ul>
+                    <div class="birthday-icon" id="choji-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/choji.jpg">
+                        <p class="name">Choji Akimichi</p>
+                    </div>
+                    <div class="birthday-icon" id="mito-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/mito.jpg">
+                        <p class="name">Mito Uzumaki</p>
+                    </div>
+                    <div class="birthday-icon" id="deidara-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/deidara.jpg">
+                        <p class="name">Deidara</p>
+                    </div>
+                    <div class="birthday-icon" id="killerbee-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/killerbee.jpg">
+                        <p class="name">Killer Bee</p>
+                    </div>
+                    <div class="birthday-icon" id="iruka-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/iruka.jpg">
+                        <p class="name">Iruka Umino</p>
+                    </div>
+
                 </div>
                 <div class="carousel-item" id="jun">
                     <h2>June</h2>
                     <ul class="list-unstyled calendar align-items-center">
-                        <li>1</li>
+                        <li class="birthday" id="mikoto" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">1</li>
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
@@ -221,18 +278,18 @@
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
-                        <li>9</li>
+                        <li class="birthday" id="itachi" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">9</li>
                         <li>10</li>
-                        <li>11</li>
+                        <li class="birthday" id="kurenai" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">11</li>
                         <li>12</li>
                         <li>13</li>
                         <li>14</li>
-                        <li>15</li>
+                        <li class="birthday" id="kimimaro" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">15</li>
                         <li>16</li>
                         <li>17</li>
                         <li>18</li>
                         <li>19</li>
-                        <li>20</li>
+                        <li class="birthday" id="karin" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">20</li>
                         <li>21</li>
                         <li>22</li>
                         <li>23</li>
@@ -244,6 +301,26 @@
                         <li>29</li>
                         <li>30</li>
                     </ul>
+                    <div class="birthday-icon" id="mikoto-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/mikoto.jpg">
+                        <p class="name">Mikoto Uchiha</p>
+                    </div>
+                    <div class="birthday-icon" id="itachi-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/itachi.jpg">
+                        <p class="name">Itachi Uchiha</p>
+                    </div>
+                    <div class="birthday-icon" id="kurenai-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/kurenai.jpg">
+                        <p class="name">Kurenai Yuhi</p>
+                    </div>
+                    <div class="birthday-icon" id="kimimaro-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/kimimaro.jpg">
+                        <p class="name">Kimimaro Kaguya</p>
+                    </div>
+                    <div class="birthday-icon" id="karin-birthday" onmouseover="birthday_photo_active(this.id)" onmouseout="birthday_photo_inactive(this.id)">
+                        <img src="img/kaarin.jpg">
+                        <p class="name">Kariin</p>
+                    </div>
                 </div>
                 <div class="carousel-item" id="jul">
                     <h2>July</h2>
@@ -254,7 +331,7 @@
                         <li>4</li>
                         <li>5</li>
                         <li>6</li>
-                        <li>7</li>
+                        <li class="birthday" id="kiba" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">7</li>
                         <li>8</li>
                         <li>9</li>
                         <li class="birthday" id="kushina" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">10</li>
@@ -270,7 +347,7 @@
                         <li>20</li>
                         <li>21</li>
                         <li>22</li>
-                        <li>23</li>
+                        <li class="birthday" id="sasuke" onmouseover="birthday_active(this.id)" onmouseout="birthday_inactive(this.id)">23</li>
                         <li>24</li>
                         <li>25</li>
                         <li>26</li>
@@ -278,15 +355,23 @@
                         <li>28</li>
                         <li>29</li>
                         <li>30</li>
-                        <l>31</l>
+                        <li>31</li>
                     </ul>
                     <div class="birthday-icon" id="neji-birthday">
                         <img src="img/neji.jpg">
                         <p class="name">Neji Hyuuga</p>
                     </div>
+                    <div class="birthday-icon" id="kiba-birthday">
+                        <img src="img/kiba.jpg">
+                        <p class="name">Kiba Inuzuka</p>
+                    </div>
                     <div class="birthday-icon" id="kushina-birthday">
                         <img src="img/kushina.png">
                         <p class="name">Kushina Uzumaki</p>
+                    </div>
+                    <div class="birthday-icon" id="sasuke-birthday">
+                        <img src="img/sasuke.jpg">
+                        <p class="name">Sasuke Uchiha</p>
                     </div>
                 </div>
 
@@ -323,7 +408,7 @@
                         <li>28</li>
                         <li>29</li>
                         <li>30</li>
-                        <l>31</l>
+                        <li>31</li>
                     </ul>
                 </div>
                 <div class="carousel-item" id="sep">
@@ -394,7 +479,7 @@
                         <li>28</li>
                         <li>29</li>
                         <li>30</li>
-                        <l>31</l>
+                        <li>31</li>
                     </ul>
                 </div>
                 <div class="carousel-item" id="nov">
@@ -465,7 +550,7 @@
                         <li>28</li>
                         <li>29</li>
                         <li>30</li>
-                        <l>31</l>
+                        <li>31</li>
                     </ul>
                 </div>
             </div>

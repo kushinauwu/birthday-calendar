@@ -39,9 +39,11 @@ h1 {
     transition: 0.2s ease-in-out;
 }
 
-.birthday:hover {
+.is-birthday {
     background-color: rgba(100, 50, 240, 0.5);
     border-radius: 0;
+    transition: 0.2s ease-in-out;
+
 }
 
 
@@ -68,4 +70,8 @@ h1 {
 .birthday-icon p {
     padding-top: 5px;
     font-size: 22px;
+}
+
+.date {
+    background-color: yellow;
 }
