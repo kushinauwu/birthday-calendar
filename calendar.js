@@ -5,7 +5,7 @@ function birthday_active(clicked_id) {
     document.getElementById(birthdayPerson).style.filter = "blur(0px)";
 
     /*unblur the birthday person's image on mouseover*/
-    console.log("clear");
+    document.getElementById(clicked_id).className = "is-birthday";
 }
 
 function birthday_inactive(clicked_id) {
@@ -14,7 +14,7 @@ function birthday_inactive(clicked_id) {
 
     /*blur the birthday person's image on mouseout*/
     document.getElementById(birthdayPerson).style.filter = "blur(5px)";
-    console.log("blurred");
+    document.getElementById(clicked_id).className = "birthday";
 }
 
 function birthday_photo_active(clicked_id) {
